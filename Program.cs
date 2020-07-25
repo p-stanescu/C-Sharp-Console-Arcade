@@ -13,9 +13,8 @@ namespace c_sharp_console_arcade
             string lowerUserChoice = userChoice.ToLower();
             int randomNumber = RandomNumberGenerator();
             string computerChoice = ComputerChoice(randomNumber);
-            Console.WriteLine($"You chose {lowerUserChoice} and the computer chose {computerChoice}");
             string gameOutcome = GameOutcome(lowerUserChoice, computerChoice);
-            
+            Console.WriteLine($"You chose {lowerUserChoice} and the computer chose {computerChoice}. {gameOutcome} Thanks for playing!");
         }
 
         public static int RandomNumberGenerator()
