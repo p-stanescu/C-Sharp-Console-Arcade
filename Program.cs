@@ -14,6 +14,8 @@ namespace c_sharp_console_arcade
             int randomNumber = RandomNumberGenerator();
             string computerChoice = ComputerChoice(randomNumber);
             Console.WriteLine($"You chose {lowerUserChoice} and the computer chose {computerChoice}");
+            string gameOutcome = GameOutcome(lowerUserChoice, computerChoice);
+            
         }
 
         public static int RandomNumberGenerator()
@@ -46,7 +48,34 @@ namespace c_sharp_console_arcade
 
         public static string GameOutcome(string lowerUserChoice, string computerChoice)
         {
-            
+            if(lowerUserChoice == "rock" && computerChoice == "paper")
+            {
+                return "You lost!";
+            } 
+            else if(lowerUserChoice == "scissors" && computerChoice == "rock")
+            {
+                return "You lost!";
+            } 
+            else if(lowerUserChoice == "paper" && computerChoice == "scissors")
+            {
+                return "You lost!";
+            } 
+            else if(lowerUserChoice == "rock" && computerChoice == "scissors")
+            {
+                return "You won, congratulations!";
+            } 
+            else if(lowerUserChoice == "paper" && computerChoice == "rock")
+            {
+                return "You won, congratulations!";
+            } 
+            else if(lowerUserChoice == "scissors" && computerChoice == "paper")
+            {
+                return "You won, congratulations!";
+            } 
+            else 
+            {
+                return "It's a draw!";
+            }
         }
 
     }
