@@ -6,8 +6,10 @@ namespace c_sharp_console_arcade
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Welcome to the C# version of rock, paper, scissors! This your chance to play this classic game against a computer. To start off, please enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}!");
         }
-        
+
     }
 }
