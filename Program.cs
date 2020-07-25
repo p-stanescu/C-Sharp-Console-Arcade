@@ -12,6 +12,8 @@ namespace c_sharp_console_arcade
             string userChoice = Console.ReadLine();
             string lowerUserChoice = userChoice.ToLower();
             int randomNumber = RandomNumberGenerator();
+            string computerChoice = ComputerChoice(randomNumber);
+            Console.WriteLine(computerChoice);
         }
 
         public static int RandomNumberGenerator()
@@ -21,10 +23,25 @@ namespace c_sharp_console_arcade
             return number;
         }
 
-        public static string ComputerChoice()
+        public static string ComputerChoice(int number)
         {
-            
-
+            string choice;
+            switch (number)
+            {
+                case 1:
+                    choice = "rock";
+                    break;
+                case 2:
+                    choice = "paper";
+                    break;
+                case 3:
+                    choice = "scissors";
+                    break;
+                default:
+                    choice = "";
+                    break;
+            }
+            return choice;
         }
 
     }
