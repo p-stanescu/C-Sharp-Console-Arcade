@@ -11,7 +11,7 @@ namespace c_sharp_console_arcade
             Console.WriteLine($"Hello {name}! Now, choose rock, paper or scissors: ");
             string userChoice = Console.ReadLine();
             string lowerUserChoice = userChoice.ToLower();
-            Console.WriteLine(RandomNumberGenerator());
+            int randomNumber = RandomNumberGenerator();
         }
 
         public static int RandomNumberGenerator()
@@ -19,6 +19,12 @@ namespace c_sharp_console_arcade
             Random integer = new Random();
             int number = integer.Next(1, 4);
             return number;
+        }
+
+        public static string ComputerChoice()
+        {
+            
+
         }
 
     }
