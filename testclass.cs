@@ -17,6 +17,8 @@ public class testclass
     Assert.Equal("paper", Program.ComputerChoice(2));
     Assert.Equal("scissors", Program.ComputerChoice(3));
   }
+
+  [Fact]
   public void GameOutcomeTest()
   {
     Assert.Equal("You lost!", Program.GameOutcome("rock", "paper"));
