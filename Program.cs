@@ -16,7 +16,9 @@ namespace c_sharp_console_arcade
 
         public static int RandomNumberGenerator()
         {
-            
+            Random integer = new Random();
+            int number = integer.Next(1, 4);
+            return number;
         }
 
     }
