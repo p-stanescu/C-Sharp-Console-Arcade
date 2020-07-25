@@ -44,5 +44,10 @@ namespace c_sharp_console_arcade
             return choice;
         }
 
+        public static string GameOutcome(string lowerUserChoice, string computerChoice)
+        {
+            
+        }
+
     }
 }
