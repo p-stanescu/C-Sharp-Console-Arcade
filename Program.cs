@@ -6,7 +6,7 @@ namespace c_sharp_console_arcade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
