@@ -27,6 +27,8 @@ namespace c_sharp_console_arcade
             return number;
         }
 
+        // Function to choose an option for the computer once there is a number 
+
         public static string ComputerChoice(int number)
         {
             string choice;
@@ -47,6 +49,8 @@ namespace c_sharp_console_arcade
             }
             return choice;
         }
+
+        // Conditional logic to decide the outcome of the game depending on the user and computer's choices
 
         public static string GameOutcome(string lowerUserChoice, string computerChoice)
         {
