@@ -4,6 +4,7 @@ namespace c_sharp_console_arcade
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the C# version of rock, paper, scissors! This your chance to play this classic game against a computer. To start off, please enter your name: ");
@@ -16,6 +17,8 @@ namespace c_sharp_console_arcade
             string gameOutcome = GameOutcome(lowerUserChoice, computerChoice);
             Console.WriteLine($"You chose {lowerUserChoice} and the computer chose {computerChoice}. {gameOutcome} Thanks for playing!");
         }
+
+        // Function to generate a random number to pick a choice for the computer 
 
         public static int RandomNumberGenerator()
         {
@@ -76,6 +79,5 @@ namespace c_sharp_console_arcade
                 return "It's a draw!";
             }
         }
-
     }
 }
