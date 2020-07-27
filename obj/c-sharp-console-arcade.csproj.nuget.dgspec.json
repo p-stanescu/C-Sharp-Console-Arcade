@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/petru/Desktop/c-sharp-console-arcade/c-sharp-console-arcade.csproj": {}
+    "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/c-sharp-console-arcade.csproj": {}
   },
   "projects": {
-    "/Users/petru/Desktop/c-sharp-console-arcade/c-sharp-console-arcade.csproj": {
+    "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/c-sharp-console-arcade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/petru/Desktop/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
+        "projectUniqueName": "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
         "projectName": "c-sharp-console-arcade",
-        "projectPath": "/Users/petru/Desktop/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
+        "projectPath": "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
         "packagesPath": "/Users/petru/.nuget/packages/",
-        "outputPath": "/Users/petru/Desktop/c-sharp-console-arcade/obj/",
+        "outputPath": "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/petru/.nuget/NuGet/NuGet.Config"

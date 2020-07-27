@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vWCRJcWFD2dTAINgiDuvhPhX+1zWK3YgDyNJCylW+/OJTR4zEi1gkiScoCUbFwjpcbZpMKqfVOnnjKOED/Cvpg==",
+  "dgSpecHash": "nINhKnVijKYJW+OErlUsnlWfL01ezesBmJNpxbDybSziZw46MkPfv4POOlSSfQDhrR7ybAzIrXfZnrkrSna/bw==",
   "success": true,
-  "projectFilePath": "/Users/petru/Desktop/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
+  "projectFilePath": "/Users/petru/Documents/Software_development_projects/C#/c-sharp-console-arcade/c-sharp-console-arcade.csproj",
   "expectedPackageFiles": [
     "/Users/petru/.nuget/packages/microsoft.codecoverage/16.7.0-preview-20200519-01/microsoft.codecoverage.16.7.0-preview-20200519-01.nupkg.sha512",
     "/Users/petru/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
